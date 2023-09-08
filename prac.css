@@ -367,6 +367,10 @@ span {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.bimages ul span {
+    color: grey;
+}
+
 .journal2 {
     /* border: 1px solid ; */
     /* height: 736px; */
