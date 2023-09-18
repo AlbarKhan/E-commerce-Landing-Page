@@ -7,9 +7,22 @@
     <link rel="stylesheet" href="prac.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- <script>
+        function myFunction(){
+            var x = document.getElementById("myTopnav");
+            if (x.className=="topnav") {
+                x.className += " responsive";
+            }
+            else {
+                x.className = "topnav";
+            }
+        }
+    </script> -->
 </head>
 <body>
-    <header>
+    <!-- <header>
         <div class="nav-bar">
             <div class="logo"> <b>HON</b>GO</div>
             <input type="checkbox" id="check">
@@ -33,24 +46,41 @@
                 </ul>
             </div>
         </div>
-    </header>
-    <!-- <div class="nav">
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fa fa-facebook"></i>
-        </label>
-        <div class="logon">
-            <p><b>HON</b>GO</p>
+    </header> -->
+
+    <div class="topnav" id="myTopnav">
+        <div class="logo"><b>HON</b>GO</div>
+
+        <div class="links">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
         </div>
-        <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">HOME</a></li>
-            <li><a href="">HOME</a></li>
-            <li><a href="">HOME</a></li>
-            <li><a href="">HOME</a></li>
-            <li><a href="">HOME</a></li>
-        </ul>
-    </div> -->
+
+        <div class="sicon">
+            <ul>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+      <script>
+        function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+      </script>
 
     <div class="startpage">
             <img src="img1.png" alt="">
